@@ -6,11 +6,11 @@
 
 ## 2026
 
-| Folder | Target | Type | CVSSv3 |
-|--------|--------|------|--------|
-| [CVE-2026-27639-Mercator-XSS](CVE-2026-27639-Mercator-XSS/) | Mercator | Stored XSS -> Account Takeover / Privilege Escalation (2 PoCs) | - |
-| [CVE-2026-49344-Mercator-JSON-DSL](CVE-2026-49344-Mercator-JSON-DSL/) | Mercator | JSON DSL query engine abuse -> PII leak | - |
-| [CVE-2026-49345-Mercator-SSRF](CVE-2026-49345-Mercator-SSRF/) | Mercator | SSRF -> internal port scan / Redis RCE (2 PoCs) | - |
+| Folder | Target | Type |
+|--------|--------|------|
+| [CVE-2026-27639-Mercator-XSS](CVE-2026-27639-Mercator-XSS/) | Mercator | Stored XSS -> Account Takeover / Privilege Escalation (2 PoCs) |
+| [CVE-2026-49344-Mercator-JSON-DSL](CVE-2026-49344-Mercator-JSON-DSL/) | Mercator | JSON DSL query engine abuse -> PII leak |
+| [CVE-2026-49345-Mercator-SSRF](CVE-2026-49345-Mercator-SSRF/) | Mercator | SSRF -> internal port scan / Redis RCE (2 PoCs) |
 
 **CVE-2026-27639** - Stored XSS (CWE-79)
 -> Chain: stored XSS -> forced password change on the default `admin` account, or privilege escalation of a malicious user to Admin
