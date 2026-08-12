@@ -1,7 +1,7 @@
 # Vulnerabilities
 
 > CVEs, exploitand security advisories
-> by [had](https://www.linkedin.com/in/hadrien-c/) · [hadrien.cat](https://hadrien.cat/)
+> by [had](https://www.linkedin.com/in/hadrien-c/), [hadrien.cat](https://hadrien.cat/)
 
 
 ## 2026
